@@ -181,3 +181,7 @@ def ATM():
                 else:
                    print("incorect password,account blocked")
                    break
+    else:
+        print("user doesn't exist")
+
+ATM()
